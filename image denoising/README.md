@@ -6,5 +6,5 @@ This a project in the digital signal process course, NLMS is a  Commonly used al
 
 Install
 -------
-download matlab from https://ww2.mathworks.cn/products/matlab.html, ensure that you have license of it.
-tools you need:
+Download matlab from https://ww2.mathworks.cn/products/matlab.html, ensure that you have license of it.
+  * toolbox you need: `Image Processing Toolbox`
