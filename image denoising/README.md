@@ -15,3 +15,8 @@ As you can see in the following figure, for a input x(n) with noise, LMS filter 
 ![image](https://github.com/WangSuhan/Image-denoising/blob/main/image%20denoising/LMS-picture.JPG)
 
 Outcome
+-----
+To verify the effect of LMS, we choose a picture and add Gaussian noise with bias is equal to 0 and variance equal to 0.01, PSNR and SSIM are two measurements to evaluate the effect of algorithm.The larger the PNSR, the better. The closer the SSIM is to 1, the better.
+![image](https://github.com/WangSuhan/Image-denoising/blob/main/image%20denoising/denoising.png)
+I tried to add convolution to optimize the algorithm, but with little success.
+DnCNN in the picture above is a deep learnign algorithm, you can find it in https://github.com/cszn/DnCNN, You can also directly open the scripts that come with MATLAB.
